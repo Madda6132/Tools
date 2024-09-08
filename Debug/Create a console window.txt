@@ -1,0 +1,9 @@
+//Create a console window
+{
+	AllocConsole();
+
+	FILE* pCout;
+	freopen_s(&pCout, "CONOUT$", "w", stdout);
+	freopen_s(&pCout, "CONOUT$", "w", stderr);
+	freopen_s(&pCout, "CONIN$", "r", stdin);
+}
