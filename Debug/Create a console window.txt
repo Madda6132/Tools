@@ -7,3 +7,9 @@
 	freopen_s(&pCout, "CONOUT$", "w", stderr);
 	freopen_s(&pCout, "CONIN$", "r", stdin);
 }
+
+//Log Messages macro
+//This will log class, function and line.
+LOG_MESSAGE(aMessage);		//Color white
+LOG_WARNING((aMessage);		//Yellow
+LOG_ERROR(aMessage);		//Red
